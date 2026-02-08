@@ -1,0 +1,3 @@
+[submodule "KiCAD_files/libraries"]
+	path = KiCAD_files/libraries
+	url = https://github.com/timmehtimmeh/Tims-KiCad-Library
