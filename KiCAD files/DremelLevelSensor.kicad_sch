@@ -634,16 +634,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 86.36) (xy 113.03 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4324fe3b-0e7d-4e74-a808-1233c31ebfd5")
-	)
-	(wire
-		(pts
 			(xy 81.28 76.2) (xy 81.28 80.01)
 		)
 		(stroke
@@ -654,16 +644,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 104.14) (xy 107.95 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eac91bc-d581-4cef-a0cf-b5d52225e089")
-	)
-	(wire
-		(pts
 			(xy 88.9 86.36) (xy 88.9 101.6)
 		)
 		(stroke
@@ -671,6 +651,16 @@
 			(type default)
 		)
 		(uuid "67eaa102-eeaf-46c1-addb-61d9bc022f52")
+	)
+	(wire
+		(pts
+			(xy 113.03 86.36) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ca30bd-d8d8-4af0-9a4f-047127412ec4")
 	)
 	(wire
 		(pts
@@ -802,140 +792,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 140.97 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "300b3582-424c-4174-b04f-a2ed873104e8")
-		(property "Reference" "#PWR03"
-			(at 140.97 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3710666f-46da-47e9-bbb4-73f7f20d4d97")
-		)
-		(instances
-			(project "DremelLevelSensor"
-				(path "/7accf362-abd1-4df7-ad78-69f9d0334dcd"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "438f6c18-f478-4881-bcf7-dde0780afde2")
-		(property "Reference" "#PWR02"
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8741b605-2b4c-4129-b490-e5abd4ee6a7f")
-		)
-		(instances
-			(project "DremelLevelSensor"
-				(path "/7accf362-abd1-4df7-ad78-69f9d0334dcd"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 107.95 104.14 180)
+		(at 113.03 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -944,7 +802,7 @@
 		(fields_autoplaced yes)
 		(uuid "87787a1f-8852-4752-a3a7-93cace6edd91")
 		(property "Reference" "Blk1"
-			(at 110.49 106.1719 0)
+			(at 115.57 103.6319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +811,7 @@
 			)
 		)
 		(property "Value" "Black"
-			(at 110.49 108.7119 0)
+			(at 115.57 106.1719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +820,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 102.87 104.14 0)
+			(at 107.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 104.14 0)
+			(at 107.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +838,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 107.95 104.14 0)
+			(at 113.03 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,76 +1063,6 @@
 			(project ""
 				(path "/7accf362-abd1-4df7-ad78-69f9d0334dcd"
 					(reference "Red1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 140.97 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e110f297-4a22-4504-9b09-0ef5215c213e")
-		(property "Reference" "JP3"
-			(at 143.51 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 143.51 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 140.97 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 140.97 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4b71c282-b70c-4174-8d08-677d705294bf")
-		)
-		(pin "1"
-			(uuid "b6e8a51e-75dc-426f-9ca0-fa0ef35703c1")
-		)
-		(instances
-			(project "DremelLevelSensor"
-				(path "/7accf362-abd1-4df7-ad78-69f9d0334dcd"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
