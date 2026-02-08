@@ -4,6 +4,7 @@ KiCAD project, schematic, and gerbers of a PCB replacement for The Auto_LevelBoa
 # Parts required
 
 The following parts are required to replace the PCB
+
 | Part | Qty | Link | Notes|
 |-----------------------------|
 | PCB | 1 | I had the gerbers successfully manufactured at (OSHPark*)[] as well as (JLCPCB)[https://jlcpcb.com/] | *The OEM PCB is a 1mm thickness.  OshPark only makes standard thickness 1.6 mm boards, but the standard thickness worked fine. |
